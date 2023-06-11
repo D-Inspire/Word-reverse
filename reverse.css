@@ -5,6 +5,9 @@
     box-sizing: border-box;
 }
 body{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding: 15px 10px;
     background-color: rgb(194, 52, 189);
 }
@@ -29,4 +32,14 @@ button{
     padding: 3px;
     border-radius: 0 5px 5px 0;
     border-left: 2px solid green;
+}
+
+#div2{
+    border: none;
+}
+p{
+    width: fit-content;
+    color: rgb(224, 224, 8);
+    font-size: 20px;
+    padding: 3px;
 }
